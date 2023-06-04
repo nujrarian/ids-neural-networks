@@ -8,6 +8,8 @@ Dataset: https://www.unb.ca/cic/datasets/ids-2018.html
 Thegoal was to create a program to clean a huge dataset and create a sequential neural network model that is capable of identifying signature-based and anomaly-based attacks from the dataset. Our neural network model consists of 3 dense layers with the first two layers having a “ReLU” activation function and the final output layer having a “Softmax” activation function.<br>
 
 ## Results
+The program produces an accuracy of 95% for signature-based attack classification and an accuracy of 98% for anomaly-based attack classification. <br>
+
 The Training and testing results for the signature-based model:<br>
 <img width="452" alt="image" src="https://github.com/nujrarian/ids-neural-networks/assets/55311409/d69e2a4e-2f04-4b5e-8f4b-2fddbf889669">
 <br>

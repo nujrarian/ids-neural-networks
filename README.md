@@ -5,10 +5,7 @@ Authors: Arjun Nair (AXN2607) and Sai Tarun Sathyan (SS4005) <br>
 Dataset: https://www.unb.ca/cic/datasets/ids-2018.html
 
 ## Objective
-Thegoal was to create a program to clean a huge dataset and create a sequential neural network model that is capable of identifying signature-based and anomaly-based attacks from the dataset. Our neural network model consists of 3 dense layers with the first two layers having a “ReLU” activation function and the final output layer having a “Softmax” activation function. Major benefits of ReLUs 
-are sparsity and a reduced likelihood of vanishing gradient. <br>
-ReLu and its derivative is faster to compute than the sigmoid function. The Softmax activation function is able to handle multiple classes. It normalizes the outputs for each class between 0 
-and 1 and divides by their sum. Hence forming a probability distribution. Therefore, giving a clear probability of input belonging to any particular class. The neural network model uses Adam optimizer simply because it’s the most frequently used optimizer and has the fastest computation time from our testing.
+Thegoal was to create a program to clean a huge dataset and create a sequential neural network model that is capable of identifying signature-based and anomaly-based attacks from the dataset. Our neural network model consists of 3 dense layers with the first two layers having a “ReLU” activation function and the final output layer having a “Softmax” activation function.<br>
 
 ## Results
 The Training and testing results for the signature-based model:

@@ -1,6 +1,6 @@
 # Intrusion Detection System using Neural Network
 
-Authors: Arjun Nair (AXN2607) and Sai Tarun Sathyan (SS4005) <br>
+Authors: Arjun Nair and Sai Tarun Sathyan <br>
 
 Dataset: https://www.unb.ca/cic/datasets/ids-2018.html
 

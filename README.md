@@ -8,14 +8,18 @@ Dataset: https://www.unb.ca/cic/datasets/ids-2018.html
 Thegoal was to create a program to clean a huge dataset and create a sequential neural network model that is capable of identifying signature-based and anomaly-based attacks from the dataset. Our neural network model consists of 3 dense layers with the first two layers having a “ReLU” activation function and the final output layer having a “Softmax” activation function.<br>
 
 ## Results
-The Training and testing results for the signature-based model:
-
-The confusion matrix for true/false positives is as follows:
-
-The Training and testing results for the anomaly-based model:
-
-The confusion matrix for true/false positives is as follows:
-
+The Training and testing results for the signature-based model:<br>
+<img width="452" alt="image" src="https://github.com/nujrarian/ids-neural-networks/assets/55311409/d69e2a4e-2f04-4b5e-8f4b-2fddbf889669">
+<br>
+The confusion matrix for true/false positives is as follows:<br>
+<img width="503" alt="image" src="https://github.com/nujrarian/ids-neural-networks/assets/55311409/984533d6-b508-4c08-952f-4a0b5a2c1ebd">
+<br>
+The Training and testing results for the anomaly-based model: <br>
+<img width="452" alt="image" src="https://github.com/nujrarian/ids-neural-networks/assets/55311409/cd520733-e644-4148-8492-6c5a814484de">
+<br>
+The confusion matrix for true/false positives is as follows: <br>
+<img width="287" alt="image" src="https://github.com/nujrarian/ids-neural-networks/assets/55311409/7d8615a8-6b2a-4ac3-92f4-ae7be64f11dc">
+<br>
 ## Steps to run the program
 Folder Format: <br>
 

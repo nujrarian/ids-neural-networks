@@ -22,6 +22,7 @@ The Training and testing results for the anomaly-based model: <br>
 The confusion matrix for true/false positives is as follows: <br>
 <img width="287" alt="image" src="https://github.com/nujrarian/ids-neural-networks/assets/55311409/7d8615a8-6b2a-4ac3-92f4-ae7be64f11dc">
 <br>
+
 ## Steps to run the program
 Folder Format: <br>
 
@@ -38,20 +39,12 @@ project/data/03-02-2018.csv <br>
 project/data/cleaned <br>
 project/data/results/models <br>
 
-
-
 The contents and structure of the Project folder is provided above.
 The steps to run the program is provided below.
 
-Step 1: Execute the data-cleanup.py file. This file will process and clean the entire dataset.
-	  The cleaned CSV files will be written into the 'project/data/cleaned' folder.
+Step 1: Execute the data-cleanup.py file. This file will process and clean the entire dataset. The cleaned CSV files will be written into the 'project/data/cleaned' folder.
 
-Step 2: Execute the data-compilation.py file. This file will compile and classify the 7 csv files
-	  into 2 new cleaned CSV files in the same folder. One file will be used as the Signature Based 
-        IDS dataset while the other file will be used as the Anomaly Based IDS dataset.
+Step 2: Execute the data-compilation.py file. This file will compile and classify the 7 csv files into 2 new cleaned CSV files in the same folder. One file will be used as the Signature Based IDS dataset while the other file will be used as the Anomaly Based IDS dataset.
 
-Step 3: Execute the IDS-NeuralNetwork.py file. This file will train the neural network on the two
-	  previously created Anomaly and Signature CSV files. It will create two models into 
-	  the 'project/data/results/model' folder and print their respective accuracies.
-    
-    
+Step 3: Execute the IDS-NeuralNetwork.py file. This file will train the neural network on the two previously created Anomaly and Signature CSV files. It will create two models into the 'project/data/results/model' folder and print their respective accuracies.
+  

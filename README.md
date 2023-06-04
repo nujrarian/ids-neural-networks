@@ -5,7 +5,7 @@ Authors: Arjun Nair and Sai Tarun Sathyan <br>
 Dataset: https://www.unb.ca/cic/datasets/ids-2018.html
 
 ## Objective
-Thegoal was to create a program to clean a huge dataset and create a sequential neural network model that is capable of identifying signature-based and anomaly-based attacks from the dataset. Our neural network model consists of 3 dense layers with the first two layers having a “ReLU” activation function and the final output layer having a “Softmax” activation function.<br>
+The goal was to create a program to clean a huge dataset and create a sequential neural network model that is capable of identifying signature-based and anomaly-based attacks from the dataset. Our neural network model consists of 3 dense layers with the first two layers having a “ReLU” activation function and the final output layer having a “Softmax” activation function.<br>
 
 ## Results
 The program produces an accuracy of 95% for signature-based attack classification and an accuracy of 98% for anomaly-based attack classification. <br>
